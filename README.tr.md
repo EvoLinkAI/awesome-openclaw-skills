@@ -8,7 +8,7 @@
   <a href="#seedance-video-oluşturma">Seedance 2.0</a> •
   <a href="#kurulum">Kurulum</a> •
   <a href="#api-key-alma">API Key</a> •
-  <a href="https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw">EvoLink</a>
+  <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw">EvoLink</a>
 </p>
 
 <p align="center">
@@ -68,7 +68,7 @@ openclaw skills add .
 
 ## API Key Alma
 
-1. [evolink.ai](https://evolink.ai/signup?utm_source=github[evolink.ai](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)utm_medium=readme[evolink.ai](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)utm_campaign=seedance2-video-gen-skill-for-openclaw)'de kaydolun
+1. [evolink.ai](https://evolink.ai/signup?utm_source=github[evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)utm_medium=readme[evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)utm_campaign=seedance2-video-gen-skill-for-openclaw)'de kaydolun
 2. Dashboard → API Keys'e gidin
 3. Yeni bir key oluşturun
 4. Ortam değişkenine ayarlayın:
@@ -183,5 +183,5 @@ MIT
 ---
 
 <p align="center">
-  Powered by <a href="https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw"><strong>EvoLink</strong></a> — Unified AI API Gateway
+  Powered by <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw"><strong>EvoLink</strong></a> — Unified AI API Gateway
 </p>

@@ -8,7 +8,7 @@
   <a href="#seedance-影片生成">Seedance 2.0</a> •
   <a href="#安裝">安裝</a> •
   <a href="#取得-api-key">API Key</a> •
-  <a href="https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw">EvoLink</a>
+  <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw">EvoLink</a>
 </p>
 
 <p align="center">
@@ -68,7 +68,7 @@ openclaw skills add .
 
 ## 取得 API Key
 
-1. 在 [evolink.ai](https://evolink.ai/signup?utm_source=github[evolink.ai](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)utm_medium=readme[evolink.ai](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)utm_campaign=seedance2-video-gen-skill-for-openclaw) 註冊
+1. 在 [evolink.ai](https://evolink.ai/signup?utm_source=github[evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)utm_medium=readme[evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)utm_campaign=seedance2-video-gen-skill-for-openclaw) 註冊
 2. 進入 Dashboard → API Keys
 3. 創建新 Key
 4. 設置環境變量：
@@ -183,5 +183,5 @@ MIT
 ---
 
 <p align="center">
-  由 <a href="https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw"><strong>EvoLink</strong></a> 提供支持 — 統一 AI API 閘道
+  由 <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw"><strong>EvoLink</strong></a> 提供支持 — 統一 AI API 閘道
 </p>

@@ -8,7 +8,7 @@
   <a href="#seedance-videoerzeugung">Seedance 2.0</a> •
   <a href="#installation">Installieren</a> •
   <a href="#api-key-erhalten">API Key</a> •
-  <a href="https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw">EvoLink</a>
+  <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw">EvoLink</a>
 </p>
 
 <p align="center">
@@ -68,7 +68,7 @@ openclaw skills add .
 
 ## API Key Erhalten
 
-1. Registrieren Sie sich bei [evolink.ai](https://evolink.ai/signup?utm_source=github[evolink.ai](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)utm_medium=readme[evolink.ai](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)utm_campaign=seedance2-video-gen-skill-for-openclaw)
+1. Registrieren Sie sich bei [evolink.ai](https://evolink.ai/signup?utm_source=github[evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)utm_medium=readme[evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)utm_campaign=seedance2-video-gen-skill-for-openclaw)
 2. Gehen Sie zu Dashboard → API Keys
 3. Erstellen Sie einen neuen Key
 4. Setzen Sie ihn in Ihrer Umgebung:
@@ -183,5 +183,5 @@ MIT
 ---
 
 <p align="center">
-  Angetrieben von <a href="https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw"><strong>EvoLink</strong></a> — Einheitliches KI-API-Gateway
+  Angetrieben von <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw"><strong>EvoLink</strong></a> — Einheitliches KI-API-Gateway
 </p>
