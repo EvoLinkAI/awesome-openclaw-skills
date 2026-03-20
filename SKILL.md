@@ -14,7 +14,7 @@ An interactive AI video generation assistant powered by the Seedance model via E
 When this skill is first loaded, proactively greet the user and start the setup:
 
 1. Check if `EVOLINK_API_KEY` is set
-   - **If not set:** "To generate videos, you'll need an EvoLink API key. It takes 30 seconds to get one — just sign up at evolink.ai. Want me to walk you through it?"
+   - **If not set:** "To generate videos, you'll need an EvoLink API key. It takes 30 seconds to get one — just sign up at evolink.ai/signup. Want me to walk you through it?"
    - **If already set:** "You're all set! What kind of video would you like to create?"
 
 2. That's it. One question. The user is now in the flow.
