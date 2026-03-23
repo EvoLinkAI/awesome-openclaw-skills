@@ -28,7 +28,7 @@
 
 ## Qu'est-ce que c'est ?
 
-Une collection de compétences pour [OpenClaw](https://github.com/openclaw/openclaw) propulsées par [EvoLink](https://evolink.ai). Installez une compétence et votre agent IA gagne de nouvelles capacités — générez des vidéos, traitez des médias et plus.
+Une collection de compétences pour [OpenClaw](https://github.com/openclaw/openclaw) propulsées par [EvoLink](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen). Installez une compétence et votre agent IA gagne de nouvelles capacités — générez des vidéos, traitez des médias et plus.
 
 Actuellement disponible :
 
@@ -155,8 +155,8 @@ Consultez [references/api-params.md](references/api-params.md) pour la documenta
 | Problème | Solution |
 |----------|----------|
 | `jq: command not found` | Installez jq : `apt install jq` / `brew install jq` |
-| `401 Unauthorized` | Vérifiez votre `EVOLINK_API_KEY` sur [evolink.ai/dashboard](https://evolink.ai/dashboard) |
-| `402 Payment Required` | Ajoutez des crédits sur [evolink.ai/dashboard](https://evolink.ai/dashboard) |
+| `401 Unauthorized` | Vérifiez votre `EVOLINK_API_KEY` sur [evolink.ai/dashboard](https://evolink.ai/dashboard?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen) |
+| `402 Payment Required` | Ajoutez des crédits sur [evolink.ai/dashboard](https://evolink.ai/dashboard?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen) |
 | `Content blocked` | Les visages humains réalistes sont restreints — modifiez votre prompt |
 | Timeout de génération | Les vidéos peuvent prendre 30–180s selon les réglages. Essayez une qualité inférieure d'abord. |
 
