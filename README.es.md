@@ -28,7 +28,7 @@
 
 ## ¿Qué es esto?
 
-Una colección de habilidades para [OpenClaw](https://github.com/openclaw/openclaw) impulsadas por [EvoLink](https://evolink.ai). Instala una habilidad y tu agente de IA gana nuevas capacidades — genera videos, procesa medios y más.
+Una colección de habilidades para [OpenClaw](https://github.com/openclaw/openclaw) impulsadas por [EvoLink](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen). Instala una habilidad y tu agente de IA gana nuevas capacidades — genera videos, procesa medios y más.
 
 Disponible actualmente:
 
@@ -155,8 +155,8 @@ Consulta [references/api-params.md](references/api-params.md) para documentació
 | Problema | Solución |
 |----------|----------|
 | `jq: command not found` | Instala jq: `apt install jq` / `brew install jq` |
-| `401 Unauthorized` | Verifica tu `EVOLINK_API_KEY` en [evolink.ai/dashboard](https://evolink.ai/dashboard) |
-| `402 Payment Required` | Añade créditos en [evolink.ai/dashboard](https://evolink.ai/dashboard) |
+| `401 Unauthorized` | Verifica tu `EVOLINK_API_KEY` en [evolink.ai/dashboard](https://evolink.ai/dashboard?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen) |
+| `402 Payment Required` | Añade créditos en [evolink.ai/dashboard](https://evolink.ai/dashboard?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen) |
 | `Content blocked` | Rostros humanos realistas están restringidos — modifica tu prompt |
 | Timeout de generación | Los videos pueden tardar 30–180s según configuración. Intenta menor calidad primero. |
 
