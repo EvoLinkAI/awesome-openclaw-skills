@@ -10,7 +10,7 @@ set -euo pipefail
 
 # Constants
 readonly API_BASE="https://api.evolink.ai"
-readonly MAX_POLL_SECONDS=180
+readonly MAX_POLL_SECONDS=300
 readonly POLL_FAST_INTERVAL=5
 readonly POLL_SLOW_INTERVAL=10
 readonly POLL_SLOW_AFTER=30

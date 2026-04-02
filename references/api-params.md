@@ -344,7 +344,7 @@ Same as image-to-video model (see above).
 ### Recommended Pattern
 1. **Frequent polling**: Every 5 seconds for first 30 seconds
 2. **Slower polling**: Every 10 seconds after 30 seconds
-3. **Timeout**: Stop after 3 minutes with warning
+3. **Timeout**: Stop after 5 minutes with warning
 
 ### Typical Generation Times
 - **4-5 seconds, 480p**: 20-45 seconds
@@ -352,7 +352,7 @@ Same as image-to-video model (see above).
 - **10-15 seconds, 720p**: 60-180 seconds
 
 ### Timeout Handling
-After 3 minutes, inform user that generation may still be processing and suggest checking back later.
+After 5 minutes, inform user that generation may still be processing and suggest checking back later.
 
 ## Rate Limits
 
