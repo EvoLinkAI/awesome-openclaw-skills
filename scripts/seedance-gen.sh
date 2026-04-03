@@ -10,10 +10,11 @@ set -euo pipefail
 
 # Constants
 readonly API_BASE="https://api.evolink.ai"
-readonly MAX_POLL_SECONDS=300
+readonly MAX_POLL_SECONDS=600
 readonly POLL_FAST_INTERVAL=5
 readonly POLL_SLOW_INTERVAL=10
 readonly POLL_SLOW_AFTER=30
+readonly PROGRESS_INTERVAL=30   # print STATUS_UPDATE every N seconds
 
 # Default values
 DURATION=5
@@ -28,6 +29,8 @@ CALLBACK_URL=""
 EXPLICIT_MODE=""
 SELECTED_MODEL=""
 PROMPT=""
+GLOBAL_TASK_ID=""
+GLOBAL_ESTIMATED_TIME=120
 
 # Colors for output
 RED='\033[0;31m'
@@ -389,28 +392,49 @@ submit_generation() {
     fi
 
     GLOBAL_TASK_ID="$task_id"
+
+    # Extract estimated_time for progress messages
+    local estimated_time
+    estimated_time=$(echo "$response_body" | jq -r '.task_info.estimated_time // 120' 2>/dev/null)
+    GLOBAL_ESTIMATED_TIME="${estimated_time:-120}"
 }
 
 # Poll task status
+# Prints STATUS_UPDATE lines every PROGRESS_INTERVAL seconds so AI agents
+# (e.g. OpenClaw / 小龙虾) can relay live progress to the user.
+# Final output lines: VIDEO_URL=<url>  ELAPSED=<Ns>
 poll_task() {
     local task_id=$1
+    local estimated_time=${2:-$GLOBAL_ESTIMATED_TIME}
     local start_time
     start_time=$(date +%s)
     local poll_interval=$POLL_FAST_INTERVAL
+    local last_progress_report=-1
 
-    # Silent polling -- no output until completion or failure
     while true; do
         local current_time elapsed
         current_time=$(date +%s)
         elapsed=$((current_time - start_time))
 
         if [[ $elapsed -gt $MAX_POLL_SECONDS ]]; then
-            warn "Generation is taking longer than expected (>${MAX_POLL_SECONDS}s). Task ${task_id} may still be processing."
+            warn "Generation is taking longer than expected (>$((MAX_POLL_SECONDS / 60)) minutes). Task ${task_id} may still be processing."
             exit 1
         fi
 
         if [[ $elapsed -gt $POLL_SLOW_AFTER ]]; then
             poll_interval=$POLL_SLOW_INTERVAL
+        fi
+
+        # Emit a progress update every PROGRESS_INTERVAL seconds
+        local progress_bucket=$(( elapsed / PROGRESS_INTERVAL ))
+        if [[ $progress_bucket -gt $last_progress_report && $elapsed -ge $PROGRESS_INTERVAL ]]; then
+            last_progress_report=$progress_bucket
+            local remaining=$(( estimated_time - elapsed ))
+            if [[ $remaining -gt 0 ]]; then
+                echo "STATUS_UPDATE: Video is still generating... (${elapsed}s elapsed, ~${remaining}s remaining)"
+            else
+                echo "STATUS_UPDATE: Video is still generating, almost there... (${elapsed}s elapsed)"
+            fi
         fi
 
         sleep "$poll_interval"
@@ -455,10 +479,7 @@ poll_task() {
                 error "Generation failed: $error_msg"
                 ;;
             "processing"|"pending")
-                # Silent -- no output during polling
-                ;;
-            *)
-                # Silent -- no output for unknown status
+                : # progress handled above
                 ;;
         esac
     done
@@ -472,7 +493,7 @@ main() {
     select_model
 
     submit_generation
-    poll_task "$GLOBAL_TASK_ID"
+    poll_task "$GLOBAL_TASK_ID" "$GLOBAL_ESTIMATED_TIME"
 }
 
 main "$@"

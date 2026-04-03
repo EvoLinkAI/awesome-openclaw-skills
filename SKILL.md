@@ -112,6 +112,20 @@ export EVOLINK_API_KEY=your_key_here
 ./scripts/seedance-gen.sh "Remix these elements" --mode reference --image "url1" --video "url2" --duration 8 --quality 720p
 ```
 
+## Script Output Protocol
+
+The script writes structured lines to stdout that you must parse and act on:
+
+| Line format | When | Your action |
+|-------------|------|-------------|
+| `STATUS_UPDATE: <message>` | Every ~30s during generation | **Relay to the user immediately** — tell them the video is still being generated with the elapsed/remaining time |
+| `VIDEO_URL=<url>` | On success | Extract the URL and present the video to the user |
+| `ELAPSED=<Ns>` | On success | Optionally mention how long it took |
+| `WARNING: ...` | On timeout (>10 min) | Inform user that generation may still be running and suggest checking back |
+| `ERROR: ...` (stderr) | On failure | Surface the error message to the user |
+
+**Important for STATUS_UPDATE**: Video generation can take 30 seconds to 3 minutes. When you see a `STATUS_UPDATE:` line, relay it naturally — e.g., *"Still working on your video, about 45 seconds remaining..."*. Do not stay silent the whole time.
+
 ## Error Handling
 
 Provide friendly, actionable messages:
