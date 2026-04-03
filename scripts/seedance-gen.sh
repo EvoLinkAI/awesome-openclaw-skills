@@ -445,13 +445,20 @@ poll_task() {
 
         local http_code response_body
         response_body=$(curl --fail-with-body --show-error --silent \
-            --connect-timeout 10 --max-time 15 \
+            --connect-timeout 15 --max-time 30 \
             -w "\n%{http_code}" \
             -X GET "${API_BASE}/v1/tasks/${task_id}" \
             -H "Authorization: Bearer ${EVOLINK_API_KEY}" 2>&1) || true
 
         http_code=$(echo "$response_body" | tail -n1)
         response_body=$(echo "$response_body" | sed '$d')
+
+        # If http_code is not a valid 3-digit status (e.g. curl timeout/network error),
+        # skip this cycle and keep polling instead of exiting
+        if [[ ! "$http_code" =~ ^[0-9]{3}$ ]]; then
+            echo "STATUS_UPDATE: Network hiccup while checking status, retrying... (${elapsed}s elapsed)"
+            continue
+        fi
 
         if [[ "$http_code" != "200" ]]; then
             handle_error "$http_code" "$response_body"
