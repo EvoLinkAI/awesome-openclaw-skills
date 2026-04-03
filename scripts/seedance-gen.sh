@@ -506,6 +506,13 @@ poll_task() {
             "processing"|"pending")
                 : # progress handled above
                 ;;
+            "")
+                echo "STATUS_UPDATE: Empty status in response, raw: $(echo "$response_body" | head -c 200) (${elapsed}s elapsed)"
+                ;;
+            *)
+                # Unexpected status — log it and treat as still-in-progress
+                echo "STATUS_UPDATE: Unexpected status '${task_status}', continuing to poll... (${elapsed}s elapsed)"
+                ;;
         esac
     done
 }
