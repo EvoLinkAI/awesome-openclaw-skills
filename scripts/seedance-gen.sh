@@ -421,7 +421,9 @@ poll_task() {
         elapsed=$((current_time - start_time))
 
         if [[ $elapsed -gt $MAX_POLL_SECONDS ]]; then
-            warn "Generation is taking longer than expected (>$((MAX_POLL_SECONDS / 60)) minutes). Task ${task_id} may still be processing."
+            echo "POLL_TIMEOUT: task_id=${task_id}"
+            warn "Polling timed out after $((MAX_POLL_SECONDS / 60)) minutes. The video may still be processing on the server."
+            warn "Check your dashboard: https://evolink.ai/dashboard"
             exit 1
         fi
 
@@ -443,20 +445,31 @@ poll_task() {
 
         sleep "$poll_interval"
 
-        local http_code response_body
-        response_body=$(curl --fail-with-body --show-error --silent \
-            --connect-timeout 15 --max-time 30 \
-            -w "\n%{http_code}" \
-            -X GET "${API_BASE}/v1/tasks/${task_id}" \
-            -H "Authorization: Bearer ${EVOLINK_API_KEY}" 2>&1) || true
+        local http_code response_body poll_attempts=0
+        # Retry the status check up to 3 times on network error before giving up
+        while [[ $poll_attempts -lt 3 ]]; do
+            response_body=$(curl --fail-with-body --show-error --silent \
+                --connect-timeout 15 --max-time 60 \
+                -w "\n%{http_code}" \
+                -X GET "${API_BASE}/v1/tasks/${task_id}" \
+                -H "Authorization: Bearer ${EVOLINK_API_KEY}" 2>&1) || true
 
-        http_code=$(echo "$response_body" | tail -n1)
-        response_body=$(echo "$response_body" | sed '$d')
+            http_code=$(echo "$response_body" | tail -n1)
+            response_body=$(echo "$response_body" | sed '$d')
 
-        # If http_code is not a valid 3-digit status (e.g. curl timeout/network error),
-        # skip this cycle and keep polling instead of exiting
+            # Valid HTTP response — break out of retry loop
+            if [[ "$http_code" =~ ^[0-9]{3}$ ]]; then
+                break
+            fi
+
+            # Network error / curl timeout — retry immediately (no sleep)
+            poll_attempts=$(( poll_attempts + 1 ))
+            echo "STATUS_UPDATE: Network hiccup, retrying status check (attempt ${poll_attempts}/3)... (${elapsed}s elapsed)"
+        done
+
+        # Still no valid response after 3 attempts — skip this cycle
         if [[ ! "$http_code" =~ ^[0-9]{3}$ ]]; then
-            echo "STATUS_UPDATE: Network hiccup while checking status, retrying... (${elapsed}s elapsed)"
+            echo "STATUS_UPDATE: Could not reach status API, will retry next cycle... (${elapsed}s elapsed)"
             continue
         fi
 

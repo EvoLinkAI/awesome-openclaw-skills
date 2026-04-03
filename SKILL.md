@@ -129,6 +129,7 @@ The script writes structured lines to stdout that you must parse and act on:
 | `STATUS_UPDATE: <message>` | Every ~30s during generation | **Relay to the user** — e.g., *"Still working on your video, about 45 seconds remaining..."* |
 | `VIDEO_URL=<url>` | On success | Extract the URL and present the video to the user |
 | `ELAPSED=<Ns>` | On success | Optionally mention how long it took |
+| `POLL_TIMEOUT: task_id=<id>` | Polling exceeded 10 min | Tell user: "Your video may already be done — check https://evolink.ai/dashboard (task: `<id>`)" |
 | `WARNING: ...` | On timeout (>10 min) | Inform user generation may still be running, suggest checking back |
 | `ERROR: ...` (stderr) | On failure | Surface the error message to the user |
 
