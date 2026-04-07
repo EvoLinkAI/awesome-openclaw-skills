@@ -1,4 +1,4 @@
-# Seedance 2.0 API Parameters Reference
+# Seedance 2.0 Gateway Service Parameters Reference
 
 This document provides complete API parameter reference for the Seedance 2.0 video generation service.
 

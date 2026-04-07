@@ -41,7 +41,7 @@ Currently available:
 
 📚 **Complete Guide**: [awesome-seedance-2-guide](https://github.com/EvoLinkAI/awesome-seedance-2-guide) — Prompts, use cases, and capabilities showcase
 
-🔌 **API Guide**: [Seedance-2.0-API](https://github.com/EvoLinkAI/Seedance-2.0-API) — pricing, models, endpoint docs, and integration examples
+🔌 **API Guide**: [Seedance-2.0-Gateway-Service](https://github.com/EvoLinkAI/Seedance-2.0-Gateway-Service) — pricing, models, endpoint docs, and integration examples
 
 More skills Now Available.
 
