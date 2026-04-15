@@ -1,6 +1,6 @@
 🌐 [English](README.md) | [Español](README.es.md) | **한국어** | [日本語](README.ja.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md) | [Português](README.pt.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md)
 
-
+# OpenClaw용 Seedance 2 Video Gen Skill
 
 <p align="center">
   <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
@@ -11,8 +11,6 @@
 <p align="center">
   <strong>Seedance 2.0<br>Human Face Now Available<br>Try Now</strong>
 </p>
-
-# OpenClaw용 Seedance 2 Video Gen Skill
 
 <p align="center">
   <strong>AI 비디오 생성 등 — 한 번의 명령으로 설치, 수 초 만에 생성 시작.</strong>

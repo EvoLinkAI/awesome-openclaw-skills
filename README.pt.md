@@ -5,6 +5,14 @@
 
 <p align="center">
   <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
+    <img src="./assets/banner.jpg" alt="Seedance 2.0 Já Disponível">
+  </a>
+</p>
+
+# 🎬 Seedance 2.0 Video Generation Skill for OpenClaw
+
+<p align="center">
+  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
     <img src="./assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
   </a>
 </p>
@@ -12,8 +20,6 @@
 <p align="center">
   <strong>Seedance 2.0<br>Human Face Now Available<br>Try Now</strong>
 </p>
-
-# 🎬 Seedance 2.0 Video Generation Skill for OpenClaw
 
 > **A Seedance 2.0 Video Generation Skill já está disponível.**
 >
