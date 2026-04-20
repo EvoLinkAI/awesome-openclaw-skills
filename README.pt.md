@@ -5,7 +5,7 @@
 ---
 
 <p align="center">
-  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
+  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=awesome-openclaw-skills">
     <img src="./skills/seedance2-video-gen/assets/banner.jpg" alt="Seedance 2.0 Já Disponível">
   </a>
 </p>
@@ -13,7 +13,7 @@
 # 🎬 Seedance 2.0 Video Generation Skill for OpenClaw
 
 <p align="center">
-  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
+  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=awesome-openclaw-skills">
     <img src="./skills/seedance2-video-gen/assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
   </a>
 </p>
@@ -24,7 +24,7 @@
 
 > **A Seedance 2.0 Video Generation Skill já está disponível.**
 >
-> 🚀 **[evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)** fornece a base para esta skill. Comece a criar vídeos multimodais no OpenClaw hoje mesmo.
+> 🚀 **[evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills)** fornece a base para esta skill. Comece a criar vídeos multimodais no OpenClaw hoje mesmo.
 
 ---
 
@@ -47,7 +47,7 @@ Use `@nome_do_material` no prompt para definir a função de cada input.
 ```
 
 <p align="center">
-  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw"><strong>👉 Comece agora →</strong></a>
+  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills"><strong>👉 Comece agora →</strong></a>
 </p>
 
 ---

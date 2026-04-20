@@ -4,7 +4,7 @@
 # OpenClaw용 Seedance 2 Video Gen Skill
 
 <p align="center">
-  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
+  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=awesome-openclaw-skills">
     <img src="./skills/seedance2-video-gen/assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
   </a>
 </p>
@@ -21,7 +21,7 @@
   <a href="#seedance-비디오-생성">Seedance 2.0</a> •
   <a href="#설치">설치</a> •
   <a href="#api-key-받기">API Key</a> •
-  <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw">EvoLink</a>
+  <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills">EvoLink</a>
 </p>
 
 ---
@@ -47,7 +47,7 @@
 ### 빠른 설치 (권장)
 
 ```bash
-openclaw skills add https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw
+openclaw skills add https://github.com/EvoLinkAI/awesome-openclaw-skills
 ```
 
 끝입니다. 스킬이 에이전트에서 사용 가능합니다.
@@ -67,8 +67,8 @@ npx evolink-seedance -y
 ### 수동 설치
 
 ```bash
-git clone https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw.git
-cd seedance2-video-gen-skill-for-openclaw
+git clone https://github.com/EvoLinkAI/awesome-openclaw-skills.git
+cd awesome-openclaw-skills
 openclaw skills add .
 ```
 
@@ -76,7 +76,7 @@ openclaw skills add .
 
 ## API Key 받기
 
-1. [evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)에서 가입
+1. [evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills)에서 가입
 2. Dashboard → API Keys로 이동
 3. 새 key 생성
 4. 환경 변수에 설정:
@@ -198,5 +198,5 @@ MIT
 ---
 
 <p align="center">
-  Powered by <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw"><strong>EvoLink</strong></a> — Unified AI API Gateway
+  Powered by <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills"><strong>EvoLink</strong></a> — Unified AI API Gateway
 </p>

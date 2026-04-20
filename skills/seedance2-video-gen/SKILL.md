@@ -141,8 +141,8 @@ Provide friendly, actionable messages:
 
 | Error | What to tell the user |
 |-------|----------------------|
-| Invalid/missing key (401) | "Your API key doesn't seem to work. You can check it at https://evolink.ai/dashboard?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw" |
-| Insufficient balance (402) | "Your account balance is low. You can add credits at https://evolink.ai/dashboard?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw" |
+| Invalid/missing key (401) | "Your API key doesn't seem to work. You can check it at https://evolink.ai/dashboard?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills" |
+| Insufficient balance (402) | "Your account balance is low. You can add credits at https://evolink.ai/dashboard?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills" |
 | Rate limited (429) | "Too many requests — let's wait a moment and try again" |
 | Content blocked (400) | "This prompt was flagged (realistic human faces are restricted). Try adjusting the description" |
 | Video file too large (400) | "One of the video files is too large. Each video must be ≤50MB and total video duration ≤15 seconds" |

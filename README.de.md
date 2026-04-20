@@ -4,7 +4,7 @@
 # Seedance 2 Video Gen Skill für OpenClaw
 
 <p align="center">
-  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
+  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=awesome-openclaw-skills">
     <img src="./skills/seedance2-video-gen/assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
   </a>
 </p>
@@ -21,7 +21,7 @@
   <a href="#seedance-videoerzeugung">Seedance 2.0</a> •
   <a href="#installation">Installieren</a> •
   <a href="#api-key-erhalten">API Key</a> •
-  <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw">EvoLink</a>
+  <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills">EvoLink</a>
 </p>
 
 <p align="center">
@@ -60,7 +60,7 @@ Weitere Skills in Kürze.
 ### Schnellinstallation (Empfohlen)
 
 ```bash
-openclaw skills add https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw
+openclaw skills add https://github.com/EvoLinkAI/awesome-openclaw-skills
 ```
 
 Das war's. Der Skill ist jetzt für Ihren Agenten verfügbar.
@@ -80,8 +80,8 @@ npx evolink-seedance -y
 ### Manuelle Installation
 
 ```bash
-git clone https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw.git
-cd seedance2-video-gen-skill-for-openclaw
+git clone https://github.com/EvoLinkAI/awesome-openclaw-skills.git
+cd awesome-openclaw-skills
 openclaw skills add .
 ```
 
@@ -89,7 +89,7 @@ openclaw skills add .
 
 ## API Key Erhalten
 
-1. Registrieren Sie sich bei [evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)
+1. Registrieren Sie sich bei [evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills)
 2. Gehen Sie zu Dashboard → API Keys
 3. Erstellen Sie einen neuen Key
 4. Setzen Sie ihn in Ihrer Umgebung:
@@ -211,5 +211,5 @@ MIT
 ---
 
 <p align="center">
-  Angetrieben von <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw"><strong>EvoLink</strong></a> — Einheitliches KI-API-Gateway
+  Angetrieben von <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills"><strong>EvoLink</strong></a> — Einheitliches KI-API-Gateway
 </p>

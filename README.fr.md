@@ -4,7 +4,7 @@
 # Seedance 2 Video Gen Skill pour OpenClaw
 
 <p align="center">
-  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
+  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=awesome-openclaw-skills">
     <img src="./skills/seedance2-video-gen/assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
   </a>
 </p>
@@ -21,7 +21,7 @@
   <a href="#génération-de-vidéo-seedance">Seedance 2.0</a> •
   <a href="#installation">Installer</a> •
   <a href="#obtenir-une-api-key">API Key</a> •
-  <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw">EvoLink</a>
+  <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills">EvoLink</a>
 </p>
 
 <p align="center">
@@ -60,7 +60,7 @@ Plus de compétences à venir.
 ### Installation Rapide (Recommandé)
 
 ```bash
-openclaw skills add https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw
+openclaw skills add https://github.com/EvoLinkAI/awesome-openclaw-skills
 ```
 
 C'est tout. La compétence est maintenant disponible pour votre agent.
@@ -80,8 +80,8 @@ npx evolink-seedance -y
 ### Installation Manuelle
 
 ```bash
-git clone https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw.git
-cd seedance2-video-gen-skill-for-openclaw
+git clone https://github.com/EvoLinkAI/awesome-openclaw-skills.git
+cd awesome-openclaw-skills
 openclaw skills add .
 ```
 
@@ -89,7 +89,7 @@ openclaw skills add .
 
 ## Obtenir une API Key
 
-1. Inscrivez-vous sur [evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)
+1. Inscrivez-vous sur [evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills)
 2. Allez dans Dashboard → API Keys
 3. Créez une nouvelle key
 4. Configurez-la dans votre environnement :
@@ -211,5 +211,5 @@ MIT
 ---
 
 <p align="center">
-  Propulsé par <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw"><strong>EvoLink</strong></a> — Passerelle API IA Unifiée
+  Propulsé par <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills"><strong>EvoLink</strong></a> — Passerelle API IA Unifiée
 </p>

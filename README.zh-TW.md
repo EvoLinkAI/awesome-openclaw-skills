@@ -4,7 +4,7 @@
 # Seedance 2 Video Gen Skill for OpenClaw
 
 <p align="center">
-  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
+  <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=awesome-openclaw-skills">
     <img src="./skills/seedance2-video-gen/assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
   </a>
 </p>
@@ -21,7 +21,7 @@
   <a href="#seedance-影片生成">Seedance 2.0</a> •
   <a href="#安裝">安裝</a> •
   <a href="#取得-api-key">API Key</a> •
-  <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw">EvoLink</a>
+  <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills">EvoLink</a>
 </p>
 
 ---
@@ -47,7 +47,7 @@
 ### 快速安裝（推薦）
 
 ```bash
-openclaw skills add https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw
+openclaw skills add https://github.com/EvoLinkAI/awesome-openclaw-skills
 ```
 
 搞定。技能已可供代理使用。
@@ -67,8 +67,8 @@ npx evolink-seedance -y
 ### 手動安裝
 
 ```bash
-git clone https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw.git
-cd seedance2-video-gen-skill-for-openclaw
+git clone https://github.com/EvoLinkAI/awesome-openclaw-skills.git
+cd awesome-openclaw-skills
 openclaw skills add .
 ```
 
@@ -76,7 +76,7 @@ openclaw skills add .
 
 ## 取得 API Key
 
-1. 在 [evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw) 註冊
+1. 在 [evolink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills) 註冊
 2. 進入 Dashboard → API Keys
 3. 創建新 Key
 4. 設置環境變量：
@@ -198,5 +198,5 @@ MIT
 ---
 
 <p align="center">
-  由 <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw"><strong>EvoLink</strong></a> 提供支持 — 統一 AI API 閘道
+  由 <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills"><strong>EvoLink</strong></a> 提供支持 — 統一 AI API 閘道
 </p>

@@ -3,7 +3,7 @@
 # OpenClaw Skills Collection for Real-World Automation
 
 <p align="center">
-  <a href="https://evolink.ai/openclaw-hosting?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
+  <a href="https://evolink.ai/openclaw-hosting?utm_source=github&utm_medium=banner&utm_campaign=awesome-openclaw-skills">
     <img src="./skills/seedance2-video-gen/assets/banner.jpg" alt="OpenClaw Skills Collection for automation, research, content creation, developer workflows, and productivity" width="100%" />
   </a>
 </p>
@@ -160,7 +160,7 @@ These are the current high-interest or flagship skill areas:
 ### Install this repository as an OpenClaw skill source
 
 ```bash
-openclaw skills add https://github.com/EvoLinkAI/seedance2-video-gen-skill-for-openclaw
+openclaw skills add https://github.com/EvoLinkAI/awesome-openclaw-skills
 ```
 
 As this repository is migrated into a multi-skill structure, each skill will live under `skills/<name>/` with its own `SKILL.md`, documentation, and supporting assets.
@@ -256,8 +256,8 @@ A single OpenClaw skills repository makes discovery easier, improves maintenance
 ## Related Resources
 
 - [OpenClaw](https://github.com/openclaw/openclaw)
-- [EvoLink](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)
-- [EvoLink Signup](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw)
+- [EvoLink](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills)
+- [EvoLink Signup](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-openclaw-skills)
 
 ---
 
