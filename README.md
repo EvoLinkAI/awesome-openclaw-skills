@@ -123,35 +123,35 @@ These are the current high-interest or flagship skill areas:
 
 | Skill | Primary Use Case | Category | Planned Path |
 |---|---|---|---|
-| Audio Analyze Skill for OpenClaw | Analyze audio inputs and media signals | Content and Media | `skills/audio-analyze/` |
-| Buddy Skill for OpenClaw | General assistant workflows and support tasks | Communication and Email | `skills/buddy/` |
-| Code Assistant Skill for OpenClaw | Coding assistance and developer workflows | Developer and Debugging | `skills/code-assistant/` |
-| Content Rewriter Skill for OpenClaw | Rewrite, polish, and transform written content | Content and Media | `skills/content-rewriter/` |
-| Data Analysis Skill for OpenClaw | Analyze structured data and workflow outputs | Productivity and Workspace | `skills/data-analysis/` |
-| Debug Skill for OpenClaw | Debugging and troubleshooting workflows | Developer and Debugging | `skills/debug/` |
-| Diagram Skill for OpenClaw | Generate diagrams and visual structures | Content and Media | `skills/diagram/` |
-| Email Skill for OpenClaw | Email drafting and messaging workflows | Communication and Email | `skills/email/` |
-| Git Skill for OpenClaw | Git operations and repo workflows | Developer and Debugging | `skills/git/` |
-| Gmail Skill for OpenClaw | Gmail automation and inbox workflows | Communication and Email | `skills/gmail/` |
-| Google Sheets Skill for OpenClaw | Spreadsheet automation and reporting | Productivity and Workspace | `skills/google-sheets/` |
-| Image Generation Skill for OpenClaw | AI image generation workflows | Content and Media | `skills/image-generation/` |
-| Multi Summarize Skill for OpenClaw | Summarize multiple inputs and sources | Research and Search | `skills/multi-summarize/` |
-| Music Generation Skill for OpenClaw | AI music and soundtrack generation | Content and Media | `skills/music-generation/` |
-| Nano Banana 2 Skill for OpenClaw | Specialized AI workflow utility | Automation and Utility | `skills/nano-banana-2/` |
-| Notion Skill for OpenClaw | Notion workspace and documentation workflows | Productivity and Workspace | `skills/notion/` |
-| PDF Skill for OpenClaw | PDF extraction, reading, and summarization | Productivity and Workspace | `skills/pdf/` |
-| Playwright CLI Skill for Claude Code | Browser and automation workflows for Claude Code | Developer and Debugging | `skills/playwright-cli/` |
-| Regex Skill for OpenClaw | Pattern matching and text transformation | Developer and Debugging | `skills/regex/` |
-| Seedance 2 Video Gen Skill for OpenClaw | Advanced AI video generation | Content and Media | `skills/seedance2-video-gen/` |
-| SEO Skill for OpenClaw | SEO workflow automation and optimization | Research and Search | `skills/seo/` |
-| Slack Skill for OpenClaw | Slack communication and workspace messaging | Communication and Email | `skills/slack/` |
-| Subtitle Skill for OpenClaw | Subtitle generation and subtitle editing | Content and Media | `skills/subtitle/` |
-| Text Humanizer Skill for OpenClaw | Rewrite AI text to sound more natural | Content and Media | `skills/text-humanizer/` |
-| Translate Skill for OpenClaw | Translation and multilingual workflows | Automation and Utility | `skills/translate/` |
-| Video Generation Skill for OpenClaw | General AI video creation workflows | Content and Media | `skills/video-generation/` |
-| Web Research Skill for OpenClaw | Search, collect, and analyze web information | Research and Search | `skills/web-research/` |
-| YouTube Skill for OpenClaw | YouTube research and content workflows | Research and Search | `skills/youtube/` |
-| Awesome OpenClaw Skills for Real Work | Curated index and gateway collection | Repository Meta | `README.md` |
+| [Audio Analyze Skill for OpenClaw](./skills/audio-analyze/README.md) | Analyze audio inputs and media signals | Content and Media | [`skills/audio-analyze/`](./skills/audio-analyze/) |
+| [Buddy Skill for OpenClaw](./skills/buddy/README.md) | General assistant workflows and support tasks | Communication and Email | [`skills/buddy/`](./skills/buddy/) |
+| [Code Assistant Skill for OpenClaw](./skills/code-assistant/README.md) | Coding assistance and developer workflows | Developer and Debugging | [`skills/code-assistant/`](./skills/code-assistant/) |
+| [Content Rewriter Skill for OpenClaw](./skills/content-rewriter/README.md) | Rewrite, polish, and transform written content | Content and Media | [`skills/content-rewriter/`](./skills/content-rewriter/) |
+| [Data Analysis Skill for OpenClaw](./skills/data-analysis/README.md) | Analyze structured data and workflow outputs | Productivity and Workspace | [`skills/data-analysis/`](./skills/data-analysis/) |
+| [Debug Skill for OpenClaw](./skills/debug/README.md) | Debugging and troubleshooting workflows | Developer and Debugging | [`skills/debug/`](./skills/debug/) |
+| [Diagram Skill for OpenClaw](./skills/diagram/README.md) | Generate diagrams and visual structures | Content and Media | [`skills/diagram/`](./skills/diagram/) |
+| [Email Skill for OpenClaw](./skills/email/README.md) | Email drafting and messaging workflows | Communication and Email | [`skills/email/`](./skills/email/) |
+| [Git Skill for OpenClaw](./skills/git/README.md) | Git operations and repo workflows | Developer and Debugging | [`skills/git/`](./skills/git/) |
+| [Gmail Skill for OpenClaw](./skills/gmail/README.md) | Gmail automation and inbox workflows | Communication and Email | [`skills/gmail/`](./skills/gmail/) |
+| [Google Sheets Skill for OpenClaw](./skills/google-sheets/README.md) | Spreadsheet automation and reporting | Productivity and Workspace | [`skills/google-sheets/`](./skills/google-sheets/) |
+| [Image Generation Skill for OpenClaw](./skills/image-generation/README.md) | AI image generation workflows | Content and Media | [`skills/image-generation/`](./skills/image-generation/) |
+| [Multi Summarize Skill for OpenClaw](./skills/multi-summarize/README.md) | Summarize multiple inputs and sources | Research and Search | [`skills/multi-summarize/`](./skills/multi-summarize/) |
+| [Music Generation Skill for OpenClaw](./skills/music-generation/README.md) | AI music and soundtrack generation | Content and Media | [`skills/music-generation/`](./skills/music-generation/) |
+| [Nano Banana 2 Skill for OpenClaw](./skills/nano-banana-2/README.md) | Specialized AI workflow utility | Automation and Utility | [`skills/nano-banana-2/`](./skills/nano-banana-2/) |
+| [Notion Skill for OpenClaw](./skills/notion/README.md) | Notion workspace and documentation workflows | Productivity and Workspace | [`skills/notion/`](./skills/notion/) |
+| [PDF Skill for OpenClaw](./skills/pdf/README.md) | PDF extraction, reading, and summarization | Productivity and Workspace | [`skills/pdf/`](./skills/pdf/) |
+| [Playwright CLI Skill for Claude Code](./skills/playwright-cli/README.md) | Browser and automation workflows for Claude Code | Developer and Debugging | [`skills/playwright-cli/`](./skills/playwright-cli/) |
+| [Regex Skill for OpenClaw](./skills/regex/README.md) | Pattern matching and text transformation | Developer and Debugging | [`skills/regex/`](./skills/regex/) |
+| [Seedance 2 Video Gen Skill for OpenClaw](./skills/seedance2-video-gen/README.md) | Advanced AI video generation | Content and Media | [`skills/seedance2-video-gen/`](./skills/seedance2-video-gen/) |
+| [SEO Skill for OpenClaw](./skills/seo/README.md) | SEO workflow automation and optimization | Research and Search | [`skills/seo/`](./skills/seo/) |
+| [Slack Skill for OpenClaw](./skills/slack/README.md) | Slack communication and workspace messaging | Communication and Email | [`skills/slack/`](./skills/slack/) |
+| [Subtitle Skill for OpenClaw](./skills/subtitle/README.md) | Subtitle generation and subtitle editing | Content and Media | [`skills/subtitle/`](./skills/subtitle/) |
+| [Text Humanizer Skill for OpenClaw](./skills/text-humanizer/README.md) | Rewrite AI text to sound more natural | Content and Media | [`skills/text-humanizer/`](./skills/text-humanizer/) |
+| [Translate Skill for OpenClaw](./skills/translate/README.md) | Translation and multilingual workflows | Automation and Utility | [`skills/translate/`](./skills/translate/) |
+| [Video Generation Skill for OpenClaw](./skills/video-generation/README.md) | General AI video creation workflows | Content and Media | [`skills/video-generation/`](./skills/video-generation/) |
+| [Web Research Skill for OpenClaw](./skills/web-research/README.md) | Search, collect, and analyze web information | Research and Search | [`skills/web-research/`](./skills/web-research/) |
+| [YouTube Skill for OpenClaw](./skills/youtube/README.md) | YouTube research and content workflows | Research and Search | [`skills/youtube/`](./skills/youtube/) |
+| [Awesome OpenClaw Skills for Real Work](./README.md) | Curated index and gateway collection | Repository Meta | [`README.md`](./README.md) |
 
 ---
 
