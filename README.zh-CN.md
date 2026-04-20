@@ -1,10 +1,11 @@
-🌐 [English](README.md) | [Español](README.es.md) | [한국어](README.ko.md) | [日本語](README.ja.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md) | [Português](README.pt.md) | **简体中文** | [繁體中文](README.zh-TW.md)
+🌐 [English](README.md) | [Español](README.es.md) | [Português](README.pt.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Türkçe](README.tr.md) | [繁體中文](README.zh-TW.md) | **简体中文**
+
 
 # Seedance 2 Video Gen Skill — OpenClaw 技能包
 
 <p align="center">
   <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
-    <img src="./assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
+    <img src="./skills/seedance2-video-gen/assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
   </a>
 </p>
 
@@ -21,19 +22,6 @@
   <a href="#安装">安装</a> •
   <a href="#获取-api-key">API Key</a> •
   <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw">EvoLink</a>
-</p>
-
-<p align="center">
-  <strong>🌐 Languages：</strong>
-  <a href="README.md">English</a> |
-  <a href="README.zh-CN.md">简体中文</a> |
-  <a href="README.zh-TW.md">繁體中文</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.ja.md">日本語</a> |
-  <a href="README.ko.md">한국어</a> |
-  <a href="README.tr.md">Türkçe</a> |
-  <a href="README.fr.md">Français</a> |
-  <a href="README.de.md">Deutsch</a>
 </p>
 
 ---
@@ -136,28 +124,28 @@ export EVOLINK_API_KEY=your_key_here
 
 ### 脚本参考
 
-技能包含 `scripts/seedance-gen.sh` 供命令行直接使用：
+技能包含 `skills/seedance2-video-gen/scripts/seedance-gen.sh` 供命令行直接使用：
 
 ```bash
 # 文生视频
-./scripts/seedance-gen.sh "宁静的山间黎明景色" --duration 5 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "宁静的山间黎明景色" --duration 5 --quality 720p
 
 # 图生视频（首帧动画）
-./scripts/seedance-gen.sh "轻柔的海浪" --image "https://example.com/beach.jpg" --duration 8 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "轻柔的海浪" --image "https://example.com/beach.jpg" --duration 8 --quality 720p
 
 # 参考生视频（用图片编辑视频片段）
-./scripts/seedance-gen.sh "将物品替换为图片1中的产品" --image "https://example.com/product.jpg" --video "https://example.com/clip.mp4" --duration 5 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "将物品替换为图片1中的产品" --image "https://example.com/product.jpg" --video "https://example.com/clip.mp4" --duration 5 --quality 720p
 
 # 竖版（社交媒体）
-./scripts/seedance-gen.sh "舞动的粒子" --aspect-ratio 9:16 --duration 4 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "舞动的粒子" --aspect-ratio 9:16 --duration 4 --quality 720p
 
 # 无音频
-./scripts/seedance-gen.sh "抽象艺术动画" --duration 6 --quality 720p --no-audio
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "抽象艺术动画" --duration 6 --quality 720p --no-audio
 ```
 
 ### API 参数
 
-完整 API 文档见 [references/api-params.md](references/api-params.md)。
+完整 API 文档见 [skills/seedance2-video-gen/references/api-params.md](skills/seedance2-video-gen/references/api-params.md)。
 
 ---
 
@@ -167,11 +155,11 @@ export EVOLINK_API_KEY=your_key_here
 .
 ├── README.md                    # English
 ├── README.zh-CN.md              # 本文件
-├── SKILL.md                     # OpenClaw 技能定义
+├── skills/seedance2-video-gen/SKILL.md                     # OpenClaw 技能定义
 ├── _meta.json                   # 技能元数据
-├── references/
+├── skills/seedance2-video-gen/references/
 │   └── api-params.md            # 完整 API 参数文档
-└── scripts/
+└── skills/seedance2-video-gen/scripts/
     └── seedance-gen.sh          # 视频生成脚本
 ```
 

@@ -1,0 +1,107 @@
+#!/usr/bin/env node
+
+const { program } = require('commander');
+const path = require('path');
+const fs = require('fs');
+
+// Load configuration
+function loadConfig() {
+  const configPath = path.join(process.cwd(), '.evocoderc.json');
+  if (fs.existsSync(configPath)) {
+    return JSON.parse(fs.readFileSync(configPath, 'utf8'));
+  }
+  return {
+    defaultLanguage: 'python',
+    autoTest: false,
+    verifyOnGenerate: true,
+    model: '[REDACTED]'
+  };
+}
+
+const config = loadConfig();
+
+// Generate command
+program
+  .command('generate <prompt>')
+  .description('Generate code from natural language prompt')
+  .option('-l, --lang <language>', 'Target language', config.defaultLanguage)
+  .option('-o, --output <file>', 'Output file path')
+  .option('--no-verify', 'Skip syntax verification')
+  .action(async (prompt, options) => {
+    console.log(`[evocode] Generating ${options.lang} code...`);
+    console.log(`[evocode] Prompt: "${prompt}"`);
+    
+    // This would be called by OpenClaw agent
+    console.log(`[evocode] Please use this command through OpenClaw chat interface.`);
+    console.log(`[evocode] The agent will generate code and ${options.verify ? 'verify' : 'skip verification'}.`);
+    
+    if (options.output) {
+      console.log(`[evocode] Output will be saved to: ${options.output}`);
+    }
+  });
+
+// Review command
+program
+  .command('review <file>')
+  .description('Review code for issues')
+  .option('-f, --focus <aspect>', 'Focus area: security, performance, or style', 'all')
+  .action(async (file, options) => {
+    console.log(`[evocode] Reviewing ${file}...`);
+    console.log(`[evocode] Focus: ${options.focus}`);
+    
+    if (!fs.existsSync(file)) {
+      console.error(`[evocode] Error: File not found: ${file}`);
+      process.exit(1);
+    }
+    
+    console.log(`[evocode] Please use this command through OpenClaw chat interface.`);
+    console.log(`[evocode] The agent will analyze the code and provide detailed feedback.`);
+  });
+
+// Debug command
+program
+  .command('debug <error>')
+  .description('Debug and fix code errors')
+  .option('-f, --file <file>', 'File containing the error')
+  .action(async (error, options) => {
+    console.log(`[evocode] Debugging error: "${error}"`);
+    
+    if (options.file) {
+      if (!fs.existsSync(options.file)) {
+        console.error(`[evocode] Error: File not found: ${options.file}`);
+        process.exit(1);
+      }
+      console.log(`[evocode] Target file: ${options.file}`);
+    }
+    
+    console.log(`[evocode] Please use this command through OpenClaw chat interface.`);
+    console.log(`[evocode] The agent will locate and fix the issue.`);
+  });
+
+// Refactor command
+program
+  .command('refactor <file>')
+  .description('Refactor and modernize code')
+  .option('-t, --target <description>', 'Target style or version', 'modern best practices')
+  .action(async (file, options) => {
+    console.log(`[evocode] Refactoring ${file}...`);
+    console.log(`[evocode] Target: ${options.target}`);
+    
+    if (!fs.existsSync(file)) {
+      console.error(`[evocode] Error: File not found: ${file}`);
+      process.exit(1);
+    }
+    
+    console.log(`[evocode] Please use this command through OpenClaw chat interface.`);
+    console.log(`[evocode] The agent will refactor the code while preserving functionality.`);
+  });
+
+program
+  .version('1.0.0')
+  .description('Code Assistant CLI - Powered by Evolink.ai');
+
+program.parse(process.argv);
+
+if (!process.argv.slice(2).length) {
+  program.outputHelp();
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Diagram Generator",
+  "version": "1.0.0",
+  "description": "AI-powered diagram creation, editing, and format conversion. Generate flowcharts, sequence diagrams, ER diagrams, architecture diagrams and more in Mermaid, draw.io, PlantUML, and Graphviz formats. Powered by evolink.ai",
+  "author": "EvoLinkAI",
+  "license": "MIT",
+  "type": "tool",
+  "requiredFiles": [],
+  "requiredEnvVars": ["EVOLINK_API_KEY"],
+  "optionalEnvVars": ["EVOLINK_MODEL"],
+  "requiredBinaries": ["python3", "curl"],
+  "externalServices": [
+    "api.evolink.ai"
+  ],
+  "dataTransmission": {
+    "api.evolink.ai": "AI commands (generate, edit, convert, explain) send diagram content to api.evolink.ai for processing by Claude. No data is stored after the response is returned. Local commands (templates, preview) run entirely locally and never transmit data."
+  }
+}

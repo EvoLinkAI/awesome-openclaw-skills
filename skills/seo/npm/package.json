@@ -1,0 +1,32 @@
+{
+  "name": "evolinkai-seo-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered SEO analysis and optimization. Audit HTML, rewrite meta tags, research keywords, generate schema markup, create sitemaps. OpenClaw skill installer. Powered by evolink.ai",
+  "bin": {
+    "evolinkai-seo-assistant": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skill-files/"
+  ],
+  "keywords": [
+    "openclaw",
+    "clawhub",
+    "seo",
+    "search-engine-optimization",
+    "meta-tags",
+    "schema-markup",
+    "sitemap",
+    "ai",
+    "claude",
+    "evolink",
+    "skill"
+  ],
+  "author": "EvoLinkAI <support@evolink.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvoLinkAI/seo-skill-for-openclaw"
+  },
+  "homepage": "https://clawhub.ai/evolinkai/ai-seo-assistant"
+}

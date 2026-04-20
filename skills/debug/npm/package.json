@@ -1,0 +1,31 @@
+{
+  "name": "evolinkai-debug-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered debugging assistant. Analyze error logs, explain errors, parse stack traces, get fix suggestions. OpenClaw skill installer. Powered by evolink.ai",
+  "bin": {
+    "evolinkai-debug-assistant": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skill-files/"
+  ],
+  "keywords": [
+    "openclaw",
+    "clawhub",
+    "debug",
+    "debugging",
+    "error",
+    "stacktrace",
+    "ai",
+    "claude",
+    "evolink",
+    "skill"
+  ],
+  "author": "EvoLinkAI <support@evolink.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvoLinkAI/debug-skill-for-openclaw"
+  },
+  "homepage": "https://clawhub.ai/evolinkai/debug-assistant"
+}

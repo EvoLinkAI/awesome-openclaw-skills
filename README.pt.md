@@ -1,11 +1,12 @@
-🌐 [English](README.md) | [Español](README.es.md) | [한국어](README.ko.md) | [日本語](README.ja.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md) | **Português** | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md)
+🌐 [English](README.md) | [Español](README.es.md) | **Português** | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Türkçe](README.tr.md) | [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md)
+
 
 
 ---
 
 <p align="center">
   <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
-    <img src="./assets/banner.jpg" alt="Seedance 2.0 Já Disponível">
+    <img src="./skills/seedance2-video-gen/assets/banner.jpg" alt="Seedance 2.0 Já Disponível">
   </a>
 </p>
 
@@ -13,7 +14,7 @@
 
 <p align="center">
   <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
-    <img src="./assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
+    <img src="./skills/seedance2-video-gen/assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
   </a>
 </p>
 

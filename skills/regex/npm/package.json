@@ -1,0 +1,31 @@
+{
+  "name": "evolinkai-regex-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered regex generation, explanation, testing, debugging, and cross-language conversion. OpenClaw skill installer. Powered by evolink.ai",
+  "bin": {
+    "evolinkai-regex-assistant": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skill-files/"
+  ],
+  "keywords": [
+    "openclaw",
+    "clawhub",
+    "regex",
+    "regular-expression",
+    "pattern-matching",
+    "text-processing",
+    "ai",
+    "claude",
+    "evolink",
+    "skill"
+  ],
+  "author": "EvoLinkAI <support@evolink.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvoLinkAI/regex-skill-for-openclaw"
+  },
+  "homepage": "https://clawhub.ai/evolinkai/ai-regex-assistant"
+}

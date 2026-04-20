@@ -1,0 +1,35 @@
+{
+  "name": "evolinkai-email-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered email writing, review, and compliance checking. Generate templates, optimize subject lines, audit spam triggers, check CAN-SPAM/GDPR/CASL. OpenClaw skill installer. Powered by evolink.ai",
+  "bin": {
+    "evolinkai-email-assistant": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skill-files/"
+  ],
+  "keywords": [
+    "openclaw",
+    "clawhub",
+    "email",
+    "email-template",
+    "spam-check",
+    "compliance",
+    "can-spam",
+    "gdpr",
+    "casl",
+    "deliverability",
+    "ai",
+    "claude",
+    "evolink",
+    "skill"
+  ],
+  "author": "EvoLinkAI <support@evolink.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvoLinkAI/email-skill-for-openclaw"
+  },
+  "homepage": "https://clawhub.ai/evolinkai/ai-email-assistant"
+}

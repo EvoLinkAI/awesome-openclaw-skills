@@ -1,0 +1,29 @@
+{
+  "name": "evolinkai-slack-assistant",
+  "version": "1.0.0",
+  "description": "Slack API integration with smart AI features — send messages, read channels, search conversations, and manage workspaces with Claude-powered summarization and drafting. OpenClaw skill installer. Powered by evolink.ai",
+  "bin": {
+    "evolinkai-slack-assistant": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skill-files/"
+  ],
+  "keywords": [
+    "openclaw",
+    "clawhub",
+    "slack",
+    "messaging",
+    "ai",
+    "claude",
+    "evolink",
+    "skill"
+  ],
+  "author": "EvoLinkAI <support@evolink.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvoLinkAI/slack-skill-for-openclaw"
+  },
+  "homepage": "https://clawhub.ai/EvoLinkAI/slack-assistant"
+}

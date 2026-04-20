@@ -1,0 +1,21 @@
+{
+  "name": "Slack Assistant",
+  "version": "1.0.0",
+  "description": "Slack API integration with smart AI features — send messages, read channels, search conversations, and manage workspaces with Claude-powered summarization and drafting. Powered by evolink.ai",
+  "author": "EvoLinkAI",
+  "license": "MIT",
+  "requiredFiles": ["~/.slack-skill/credentials.json"],
+  "requiredEnvVars": [],
+  "optionalEnvVars": ["EVOLINK_API_KEY", "EVOLINK_MODEL", "SLACK_SKILL_DIR"],
+  "requiredBinaries": ["python3", "curl"],
+  "externalServices": [
+    "slack.com",
+    "api.slack.com",
+    "api.evolink.ai"
+  ],
+  "dataTransmission": {
+    "api.evolink.ai": "When AI features (ai-summary, ai-reply, ai-prioritize) are used, message content, sender, and channel information are sent to api.evolink.ai for processing. No data is stored by EvoLink after the response is returned. AI features are optional and require explicit opt-in via EVOLINK_API_KEY."
+  },
+  "requiredDependencies": ["python3", "curl"],
+  "optionalDependencies": []
+}

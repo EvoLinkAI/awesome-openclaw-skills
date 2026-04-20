@@ -1,0 +1,11 @@
+{
+  "name": "playwright-cli",
+  "version": "1.0.0",
+  "description": "Token-efficient Playwright CLI for coding agents. Originally created by Microsoft Playwright team.",
+  "author": "EvoLinkAI",
+  "license": "Apache-2.0",
+  "requiredEnvVars": [],
+  "optionalEnvVars": ["PLAYWRIGHT_CLI_SESSION"],
+  "externalServices": [],
+  "binaries": ["node", "npm", "playwright-cli"]
+}

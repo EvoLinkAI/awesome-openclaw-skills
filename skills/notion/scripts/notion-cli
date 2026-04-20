@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+const { Client } = require("@notionhq/client");
+const notion = new Client({ auth: process.env.NOTION_API_KEY });
+async function run() {
+  const [,, cmd, action, id, ...args] = process.argv;
+  if (cmd === 'page' && action === 'get') {
+    const res = await notion.pages.retrieve({ page_id: id });
+    console.log(JSON.stringify(res, null, 2));
+  } else {
+    process.exit(1);
+  }
+}
+run().catch(console.error);

@@ -1,0 +1,37 @@
+{
+  "name": "verified-code",
+  "version": "1.0.6",
+  "summary": "Generate, review, debug, and refactor code in any language. Requires EVOLINK_API_KEY. Transmits workspace files to api.evolink.ai. Powered by Evolink.ai",
+  "description": "A comprehensive code assistant that generates working code (not templates), reviews for security/performance issues, debugs errors with context, and refactors legacy codebases. Supports Python, JavaScript/TypeScript, Go, Rust, Java, and C/C++. Reads workspace files and sends them to api.evolink.ai for processing. Executes syntax checks and tests locally.",
+  "author": "EvoLinkAI",
+  "license": "MIT",
+  "homepage": "https://github.com/EvoLinkAI/code-assistant-skill-for-openclaw",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvoLinkAI/code-assistant-skill-for-openclaw.git"
+  },
+  "tags": [
+    "code",
+    "development",
+    "refactor",
+    "debug",
+    "review",
+    "generation",
+    "python",
+    "javascript",
+    "typescript",
+    "go",
+    "rust"
+  ],
+  "envVars": [
+    "EVOLINK_API_KEY",
+    "EVOLINK_MODEL"
+  ],
+  "binaries": ["node"],
+  "always": false,
+  "capabilities": {
+    "fileAccess": "workspace",
+    "networkAccess": true,
+    "shellAccess": true
+  }
+}

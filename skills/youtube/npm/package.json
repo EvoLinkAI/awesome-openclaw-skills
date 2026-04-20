@@ -1,0 +1,31 @@
+{
+  "name": "evolinkai-youtube-assistant",
+  "version": "1.0.0",
+  "description": "Fetch YouTube video transcripts, metadata, and channel info with AI-powered summarization, key takeaway extraction, and multi-video analysis. OpenClaw skill installer. Powered by evolink.ai",
+  "bin": {
+    "evolinkai-youtube-assistant": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skill-files/"
+  ],
+  "keywords": [
+    "openclaw",
+    "clawhub",
+    "youtube",
+    "transcript",
+    "video",
+    "ai",
+    "claude",
+    "evolink",
+    "skill",
+    "yt-dlp"
+  ],
+  "author": "EvoLinkAI <support@evolink.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvoLinkAI/youtube-skill-for-openclaw"
+  },
+  "homepage": "https://clawhub.ai/evolinkai/youtube-assistant"
+}

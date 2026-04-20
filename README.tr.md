@@ -1,10 +1,11 @@
-🌐 [English](README.md) | [Español](README.es.md) | [한국어](README.ko.md) | [日本語](README.ja.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | **Türkçe** | [Русский](README.ru.md) | [Português](README.pt.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md)
+🌐 [English](README.md) | [Español](README.es.md) | [Português](README.pt.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | **Türkçe** | [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md)
+
 
 # OpenClaw için Seedance 2 Video Gen Skill
 
 <p align="center">
   <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
-    <img src="./assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
+    <img src="./skills/seedance2-video-gen/assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
   </a>
 </p>
 
@@ -21,19 +22,6 @@
   <a href="#kurulum">Kurulum</a> •
   <a href="#api-key-alma">API Key</a> •
   <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw">EvoLink</a>
-</p>
-
-<p align="center">
-  <strong>🌐 Languages：</strong>
-  <a href="README.md">English</a> |
-  <a href="README.zh-CN.md">简体中文</a> |
-  <a href="README.zh-TW.md">繁體中文</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.ja.md">日本語</a> |
-  <a href="README.ko.md">한국어</a> |
-  <a href="README.tr.md">Türkçe</a> |
-  <a href="README.fr.md">Français</a> |
-  <a href="README.de.md">Deutsch</a>
 </p>
 
 ---
@@ -136,28 +124,28 @@ Ajan, eksik detaylar konusunda size rehberlik edecek ve oluşturmayı yönetecek
 
 ### Script Referansı
 
-Yetenek, doğrudan komut satırı kullanımı için `scripts/seedance-gen.sh` içerir:
+Yetenek, doğrudan komut satırı kullanımı için `skills/seedance2-video-gen/scripts/seedance-gen.sh` içerir:
 
 ```bash
 # Metin-videoya
-./scripts/seedance-gen.sh "Şafaktaki huzurlu bir dağ manzarası" --duration 5 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "Şafaktaki huzurlu bir dağ manzarası" --duration 5 --quality 720p
 
 # Görsel-videoya (ilk kareden animasyon)
-./scripts/seedance-gen.sh "Hafif okyanus dalgaları" --image "https://example.com/beach.jpg" --duration 8 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "Hafif okyanus dalgaları" --image "https://example.com/beach.jpg" --duration 8 --quality 720p
 
 # Referans-videoya (görsel ile video klip düzenleme)
-./scripts/seedance-gen.sh "Öğeyi görsel 1'deki ürünle değiştir" --image "https://example.com/product.jpg" --video "https://example.com/clip.mp4" --duration 5 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "Öğeyi görsel 1'deki ürünle değiştir" --image "https://example.com/product.jpg" --video "https://example.com/clip.mp4" --duration 5 --quality 720p
 
 # Sosyal medya için dikey format
-./scripts/seedance-gen.sh "Dans eden parçacıklar" --aspect-ratio 9:16 --duration 4 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "Dans eden parçacıklar" --aspect-ratio 9:16 --duration 4 --quality 720p
 
 # Ses olmadan
-./scripts/seedance-gen.sh "Soyut sanat animasyonu" --duration 6 --quality 720p --no-audio
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "Soyut sanat animasyonu" --duration 6 --quality 720p --no-audio
 ```
 
 ### API Parametreleri
 
-Tam API belgeleri için [references/api-params.md](references/api-params.md)'ye bakın.
+Tam API belgeleri için [skills/seedance2-video-gen/references/api-params.md](skills/seedance2-video-gen/references/api-params.md)'ye bakın.
 
 ---
 
@@ -166,11 +154,11 @@ Tam API belgeleri için [references/api-params.md](references/api-params.md)'ye 
 ```
 .
 ├── README.md                    # Bu dosya
-├── SKILL.md                     # OpenClaw yetenek tanımı
+├── skills/seedance2-video-gen/SKILL.md                     # OpenClaw yetenek tanımı
 ├── _meta.json                   # Yetenek meta verileri
-├── references/
+├── skills/seedance2-video-gen/references/
 │   └── api-params.md            # Tam API parametre referansı
-└── scripts/
+└── skills/seedance2-video-gen/scripts/
     └── seedance-gen.sh          # Video oluşturma scripti
 ```
 

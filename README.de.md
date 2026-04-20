@@ -1,10 +1,11 @@
-🌐 [English](README.md) | [Español](README.es.md) | [한국어](README.ko.md) | [日本語](README.ja.md) | **Deutsch** | [Français](README.fr.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md) | [Português](README.pt.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md)
+🌐 [English](README.md) | [Español](README.es.md) | [Português](README.pt.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | **Deutsch** | [Français](README.fr.md) | [Türkçe](README.tr.md) | [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md)
+
 
 # Seedance 2 Video Gen Skill für OpenClaw
 
 <p align="center">
   <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
-    <img src="./assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
+    <img src="./skills/seedance2-video-gen/assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
   </a>
 </p>
 
@@ -136,28 +137,28 @@ Der Agent führt Sie durch fehlende Details und verwaltet die Erzeugung.
 
 ### Script-Referenz
 
-Der Skill enthält `scripts/seedance-gen.sh` für direkte Kommandozeilennutzung:
+Der Skill enthält `skills/seedance2-video-gen/scripts/seedance-gen.sh` für direkte Kommandozeilennutzung:
 
 ```bash
 # Text-zu-Video
-./scripts/seedance-gen.sh "Eine ruhige Berglandschaft im Morgengrauen" --duration 5 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "Eine ruhige Berglandschaft im Morgengrauen" --duration 5 --quality 720p
 
 # Bild-zu-Video (Animation vom ersten Frame)
-./scripts/seedance-gen.sh "Sanfte Meereswellen" --image "https://example.com/beach.jpg" --duration 8 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "Sanfte Meereswellen" --image "https://example.com/beach.jpg" --duration 8 --quality 720p
 
 # Referenz-zu-Video (Videoclip mit Bild bearbeiten)
-./scripts/seedance-gen.sh "Ersetze den Gegenstand durch das Produkt aus Bild 1" --image "https://example.com/product.jpg" --video "https://example.com/clip.mp4" --duration 5 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "Ersetze den Gegenstand durch das Produkt aus Bild 1" --image "https://example.com/product.jpg" --video "https://example.com/clip.mp4" --duration 5 --quality 720p
 
 # Vertikales Format für Social Media
-./scripts/seedance-gen.sh "Tanzende Partikel" --aspect-ratio 9:16 --duration 4 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "Tanzende Partikel" --aspect-ratio 9:16 --duration 4 --quality 720p
 
 # Ohne Audio
-./scripts/seedance-gen.sh "Abstrakte Kunstanimation" --duration 6 --quality 720p --no-audio
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "Abstrakte Kunstanimation" --duration 6 --quality 720p --no-audio
 ```
 
 ### API-Parameter
 
-Siehe [references/api-params.md](references/api-params.md) für vollständige API-Dokumentation.
+Siehe [skills/seedance2-video-gen/references/api-params.md](skills/seedance2-video-gen/references/api-params.md) für vollständige API-Dokumentation.
 
 ---
 
@@ -166,11 +167,11 @@ Siehe [references/api-params.md](references/api-params.md) für vollständige AP
 ```
 .
 ├── README.md                    # Diese Datei
-├── SKILL.md                     # OpenClaw Skill-Definition
+├── skills/seedance2-video-gen/SKILL.md                     # OpenClaw Skill-Definition
 ├── _meta.json                   # Skill-Metadaten
-├── references/
+├── skills/seedance2-video-gen/references/
 │   └── api-params.md            # Vollständige API-Parameterreferenz
-└── scripts/
+└── skills/seedance2-video-gen/scripts/
     └── seedance-gen.sh          # Videoerzeugungsscript
 ```
 

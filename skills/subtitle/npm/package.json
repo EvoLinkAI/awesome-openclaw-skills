@@ -1,0 +1,31 @@
+{
+  "name": "evolinkai-subtitle-assistant",
+  "version": "1.0.0",
+  "description": "Download YouTube subtitles and use AI to summarize, translate, or extract key points. OpenClaw skill installer. Powered by evolink.ai",
+  "bin": {
+    "evolinkai-subtitle-assistant": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skill-files/"
+  ],
+  "keywords": [
+    "openclaw",
+    "clawhub",
+    "subtitle",
+    "youtube",
+    "summarize",
+    "translate",
+    "ai",
+    "claude",
+    "evolink",
+    "skill"
+  ],
+  "author": "EvoLinkAI <support@evolink.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvoLinkAI/subtitle-skill-for-openclaw"
+  },
+  "homepage": "https://clawhub.ai/evolinkai/ai-subtitle-assistant"
+}

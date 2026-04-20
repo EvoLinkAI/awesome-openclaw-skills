@@ -1,0 +1,36 @@
+{
+  "name": "evolinkai-diagram-generator",
+  "version": "1.0.0",
+  "description": "AI-powered diagram creation, editing, and format conversion. Generate flowcharts, sequence diagrams, ER diagrams, architecture diagrams in Mermaid, draw.io, PlantUML, Graphviz. OpenClaw skill installer. Powered by evolink.ai",
+  "bin": {
+    "evolinkai-diagram-generator": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skill-files/"
+  ],
+  "keywords": [
+    "openclaw",
+    "clawhub",
+    "diagram",
+    "mermaid",
+    "drawio",
+    "plantuml",
+    "graphviz",
+    "flowchart",
+    "sequence-diagram",
+    "er-diagram",
+    "architecture",
+    "ai",
+    "claude",
+    "evolink",
+    "skill"
+  ],
+  "author": "EvoLinkAI <support@evolink.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvoLinkAI/diagram-skill-for-openclaw"
+  },
+  "homepage": "https://clawhub.ai/evolinkai/ai-diagram-generator"
+}

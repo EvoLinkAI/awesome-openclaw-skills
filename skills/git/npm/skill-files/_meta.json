@@ -1,0 +1,18 @@
+{
+  "name": "Git Assistant",
+  "version": "1.0.0",
+  "description": "AI-powered git commit messages, changelogs, release notes, PR descriptions, and commit review. Powered by evolink.ai",
+  "author": "EvoLinkAI",
+  "license": "MIT",
+  "type": "tool",
+  "requiredFiles": [],
+  "requiredEnvVars": ["EVOLINK_API_KEY"],
+  "optionalEnvVars": ["EVOLINK_MODEL"],
+  "requiredBinaries": ["python3", "curl", "git"],
+  "externalServices": [
+    "api.evolink.ai"
+  ],
+  "dataTransmission": {
+    "api.evolink.ai": "AI commands send git diff output or commit history to api.evolink.ai for analysis by Claude. No data is stored after the response is returned. The conventions command runs entirely locally."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "evolinkai-google-sheets-assistant",
+  "version": "1.0.2",
+  "description": "Read, write, and analyze Google Sheets with AI-powered insights, formula generation, and data summarization. OpenClaw skill installer. Powered by evolink.ai",
+  "bin": {
+    "evolinkai-google-sheets-assistant": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skill-files/"
+  ],
+  "keywords": [
+    "openclaw",
+    "clawhub",
+    "google-sheets",
+    "spreadsheet",
+    "sheets",
+    "ai",
+    "claude",
+    "evolink",
+    "maton",
+    "skill",
+    "google"
+  ],
+  "author": "EvoLinkAI <support@evolink.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvoLinkAI/google-sheets-skill-for-openclaw"
+  },
+  "homepage": "https://clawhub.ai/evolinkai/google-sheets-assistant"
+}

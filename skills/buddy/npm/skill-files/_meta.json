@@ -1,0 +1,17 @@
+{
+  "name": "Buddy Skill Creator",
+  "version": "1.0.0",
+  "description": "Distill your ideal buddy into an AI Skill. Import chat history, photos, social media posts, or just describe your dream buddy — generate Vibe Memory + Persona with continuous evolution. Powered by evolink.ai | 把理想搭子蒸馏成 AI Skill，导入聊天记录、照片、社交媒体，或纯粹描述你的理想搭子，生成默契记忆 + 人格，支持持续进化。",
+  "author": "EvoLinkAI",
+  "license": "MIT",
+  "requiredFiles": [],
+  "requiredEnvVars": [],
+  "optionalEnvVars": ["EVOLINK_API_KEY", "EVOLINK_MODEL"],
+  "requiredBinaries": ["python3"],
+  "externalServices": [
+    "api.evolink.ai"
+  ],
+  "dataTransmission": {
+    "api.evolink.ai": "When AI analysis features are used (persona extraction, vibe analysis, chat generation), user-provided materials (chat logs, descriptions) are sent to api.evolink.ai for processing by Claude. No data is stored by EvoLink after the response is returned. AI features require explicit opt-in via EVOLINK_API_KEY."
+  }
+}

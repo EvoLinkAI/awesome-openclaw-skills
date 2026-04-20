@@ -1,0 +1,18 @@
+{
+  "slug": "evolink-translate",
+  "version": "1.0.0",
+  "name": "Translate",
+  "description": "High-quality translation with EvoLink API integration.",
+  "envVars": {
+    "EVOLINK_API_KEY": {
+      "required": true,
+      "description": "Your EvoLink API key."
+    },
+    "EVOLINK_MODEL": {
+      "required": false,
+      "description": "The model to use (defaults to opus-4-6)."
+    }
+  },
+  "binaries": [],
+  "networkAccess": ["api.evolink.ai"]
+}

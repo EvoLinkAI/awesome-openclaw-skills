@@ -1,0 +1,6 @@
+buddies/
+*.pyc
+__pycache__/
+.env
+node_modules/
+.DS_Store

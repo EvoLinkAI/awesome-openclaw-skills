@@ -1,0 +1,10 @@
+node_modules/
+*.log
+.DS_Store
+.env
+.evocoderc.json
+dist/
+build/
+*.swp
+*.swo
+*~

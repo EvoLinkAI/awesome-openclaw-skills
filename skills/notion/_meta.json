@@ -1,0 +1,10 @@
+{
+  "name": "Notion",
+  "version": "1.0.1",
+  "description": "Notion API integration powered by Evolink AI for intelligent content processing",
+  "author": "EvoLinkAI",
+  "license": "MIT",
+  "requiredEnvVars": ["NOTION_API_KEY"],
+  "optionalEnvVars": ["EVOLINK_API_KEY", "EVOLINK_MODEL"],
+  "externalServices": ["api.notion.com", "api.evolink.ai"]
+}

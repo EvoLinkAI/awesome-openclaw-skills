@@ -1,0 +1,22 @@
+{
+  "name": "Google Sheets Assistant",
+  "version": "1.0.3",
+  "description": "Read, write, and analyze Google Sheets with AI-powered insights, formula generation, and data summarization. Powered by evolink.ai",
+  "author": "EvoLinkAI",
+  "license": "MIT",
+  "type": "tool",
+  "requiredFiles": [],
+  "requiredEnvVars": ["MATON_API_KEY"],
+  "optionalEnvVars": ["EVOLINK_API_KEY", "EVOLINK_MODEL"],
+  "requiredBinaries": ["python3", "curl"],
+  "externalServices": [
+    "gateway.maton.ai",
+    "ctrl.maton.ai",
+    "api.evolink.ai"
+  ],
+  "dataTransmission": {
+    "gateway.maton.ai": "All Google Sheets operations (read, write, create, format, etc.) are proxied through gateway.maton.ai, which manages OAuth tokens and forwards requests to the Google Sheets API.",
+    "ctrl.maton.ai": "Connection management (create, list, delete OAuth connections) is handled via ctrl.maton.ai.",
+    "api.evolink.ai": "When AI features (ai-analyze, ai-formula, ai-summary) are used, spreadsheet data is sent to api.evolink.ai for processing by Claude. No data is stored after the response is returned. AI features are optional and require explicit opt-in via EVOLINK_API_KEY."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "code-assistant-skill",
+  "version": "1.0.0",
+  "description": "Code generation, review, debug, and refactor assistant for OpenClaw",
+  "main": "bin/evocode",
+  "bin": {
+    "evocode": "./bin/evocode"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "code",
+    "generation",
+    "review",
+    "debug",
+    "refactor"
+  ],
+  "author": "EvoLinkAI",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

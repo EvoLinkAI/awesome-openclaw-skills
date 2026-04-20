@@ -1,0 +1,32 @@
+{
+  "name": "evolinkai-buddy-skill",
+  "version": "1.0.0",
+  "description": "Distill your ideal buddy into an AI Skill — OpenClaw skill installer. Import chat history, photos, or describe your dream buddy. Powered by evolink.ai",
+  "bin": {
+    "evolinkai-buddy-skill": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skill-files/",
+    "README.md"
+  ],
+  "keywords": [
+    "openclaw",
+    "clawhub",
+    "buddy",
+    "搭子",
+    "ai",
+    "claude",
+    "evolink",
+    "skill",
+    "persona",
+    "chatbot"
+  ],
+  "author": "EvoLinkAI <support@evolink.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvoLinkAI/buddy-skill-for-openclaw"
+  },
+  "homepage": "https://clawhub.ai/evolinkai/buddy-skill-creator"
+}

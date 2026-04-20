@@ -1,0 +1,8 @@
+{
+  "slug": "web-research",
+  "version": "3.0.0",
+  "name": "Web Search Assistant",
+  "envVars": ["EVOLINK_API_KEY"],
+  "binaries": ["curl", "jq"],
+  "networkAccess": true
+}

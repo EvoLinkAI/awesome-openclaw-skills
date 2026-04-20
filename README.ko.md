@@ -1,10 +1,11 @@
-🌐 [English](README.md) | [Español](README.es.md) | **한국어** | [日本語](README.ja.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Türkçe](README.tr.md) | [Русский](README.ru.md) | [Português](README.pt.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md)
+🌐 [English](README.md) | [Español](README.es.md) | [Português](README.pt.md) | [日本語](README.ja.md) | **한국어** | [Deutsch](README.de.md) | [Français](README.fr.md) | [Türkçe](README.tr.md) | [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md)
+
 
 # OpenClaw용 Seedance 2 Video Gen Skill
 
 <p align="center">
   <a href="https://evolink.ai/seedance-2-0?utm_source=github&utm_medium=banner&utm_campaign=seedance2-video-gen-skill-for-openclaw">
-    <img src="./assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
+    <img src="./skills/seedance2-video-gen/assets/banner.jpg" alt="Seedance 2.0 Human Face Now Available Try Now" width="100%" />
   </a>
 </p>
 
@@ -21,19 +22,6 @@
   <a href="#설치">설치</a> •
   <a href="#api-key-받기">API Key</a> •
   <a href="https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=seedance2-video-gen-skill-for-openclaw">EvoLink</a>
-</p>
-
-<p align="center">
-  <strong>🌐 Languages：</strong>
-  <a href="README.md">English</a> |
-  <a href="README.zh-CN.md">简体中文</a> |
-  <a href="README.zh-TW.md">繁體中文</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.ja.md">日本語</a> |
-  <a href="README.ko.md">한국어</a> |
-  <a href="README.tr.md">Türkçe</a> |
-  <a href="README.fr.md">Français</a> |
-  <a href="README.de.md">Deutsch</a>
 </p>
 
 ---
@@ -136,28 +124,28 @@ OpenClaw 에이전트와 자연스러운 대화를 통해 AI 비디오를 생성
 
 ### 스크립트 참조
 
-스킬에는 명령줄에서 직접 사용할 수 있는 `scripts/seedance-gen.sh`이 포함되어 있습니다:
+스킬에는 명령줄에서 직접 사용할 수 있는 `skills/seedance2-video-gen/scripts/seedance-gen.sh`이 포함되어 있습니다:
 
 ```bash
 # 텍스트-투-비디오
-./scripts/seedance-gen.sh "새벽의 평화로운 산 풍경" --duration 5 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "새벽의 평화로운 산 풍경" --duration 5 --quality 720p
 
 # 이미지-투-비디오 (첫 프레임에서 애니메이션)
-./scripts/seedance-gen.sh "부드러운 파도" --image "https://example.com/beach.jpg" --duration 8 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "부드러운 파도" --image "https://example.com/beach.jpg" --duration 8 --quality 720p
 
 # 레퍼런스-투-비디오 (이미지로 비디오 클립 편집)
-./scripts/seedance-gen.sh "아이템을 이미지 1의 제품으로 교체" --image "https://example.com/product.jpg" --video "https://example.com/clip.mp4" --duration 5 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "아이템을 이미지 1의 제품으로 교체" --image "https://example.com/product.jpg" --video "https://example.com/clip.mp4" --duration 5 --quality 720p
 
 # 소셜 미디어용 세로형
-./scripts/seedance-gen.sh "춤추는 입자" --aspect-ratio 9:16 --duration 4 --quality 720p
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "춤추는 입자" --aspect-ratio 9:16 --duration 4 --quality 720p
 
 # 오디오 없음
-./scripts/seedance-gen.sh "추상 예술 애니메이션" --duration 6 --quality 720p --no-audio
+./skills/seedance2-video-gen/scripts/seedance-gen.sh "추상 예술 애니메이션" --duration 6 --quality 720p --no-audio
 ```
 
 ### API 파라미터
 
-전체 API 문서는 [references/api-params.md](references/api-params.md)를 참조하세요.
+전체 API 문서는 [skills/seedance2-video-gen/references/api-params.md](skills/seedance2-video-gen/references/api-params.md)를 참조하세요.
 
 ---
 
@@ -166,11 +154,11 @@ OpenClaw 에이전트와 자연스러운 대화를 통해 AI 비디오를 생성
 ```
 .
 ├── README.md                    # 이 파일
-├── SKILL.md                     # OpenClaw 스킬 정의
+├── skills/seedance2-video-gen/SKILL.md                     # OpenClaw 스킬 정의
 ├── _meta.json                   # 스킬 메타데이터
-├── references/
+├── skills/seedance2-video-gen/references/
 │   └── api-params.md            # 완전한 API 파라미터 참조
-└── scripts/
+└── skills/seedance2-video-gen/scripts/
     └── seedance-gen.sh          # 비디오 생성 스크립트
 ```
 

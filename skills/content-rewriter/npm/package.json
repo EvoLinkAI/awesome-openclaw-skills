@@ -1,0 +1,33 @@
+{
+  "name": "evolinkai-content-rewriter",
+  "version": "1.0.0",
+  "description": "Rewrite and optimize content for 8+ platforms with AI-powered tone adjustment, batch conversion, quality scoring, and translation. OpenClaw skill installer. Powered by evolink.ai",
+  "bin": {
+    "evolinkai-content-rewriter": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "skill-files/"
+  ],
+  "keywords": [
+    "openclaw",
+    "clawhub",
+    "content-rewriter",
+    "copywriting",
+    "ai",
+    "claude",
+    "evolink",
+    "skill",
+    "twitter",
+    "linkedin",
+    "blog",
+    "seo"
+  ],
+  "author": "EvoLinkAI <support@evolink.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvoLinkAI/content-rewriter-skill-for-openclaw"
+  },
+  "homepage": "https://clawhub.ai/evolinkai/content-rewriter-pro"
+}

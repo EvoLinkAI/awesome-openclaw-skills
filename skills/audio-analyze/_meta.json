@@ -1,0 +1,11 @@
+{
+  "name": "audio-analyze",
+  "version": "1.0.6",
+  "description": "High-performance audio transcription and analysis using Gemini 3.1 Pro. Powered by Evolink.ai",
+  "author": "EvoLinkAI",
+  "license": "MIT",
+  "requiredEnvVars": ["EVOLINK_API_KEY"],
+  "optionalEnvVars": ["EVOLINK_MODEL"],
+  "externalServices": ["api.evolink.ai"],
+  "binaries": ["python3", "curl"]
+}

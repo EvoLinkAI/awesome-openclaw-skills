@@ -1,0 +1,19 @@
+{
+  "name": "YouTube Assistant",
+  "version": "1.0.4",
+  "description": "Fetch YouTube video transcripts, metadata, and channel info with AI-powered summarization, key takeaway extraction, and multi-video analysis. Powered by evolink.ai",
+  "author": "EvoLinkAI",
+  "license": "MIT",
+  "type": "tool",
+  "requiredFiles": [],
+  "requiredEnvVars": [],
+  "optionalEnvVars": ["EVOLINK_API_KEY", "EVOLINK_MODEL"],
+  "requiredBinaries": ["python3", "yt-dlp", "curl"],
+  "externalServices": [
+    "youtube.com",
+    "api.evolink.ai"
+  ],
+  "dataTransmission": {
+    "api.evolink.ai": "When AI features (ai-summary, ai-takeaways, ai-compare, ai-ask) are used, video transcript text and metadata are sent to api.evolink.ai for processing. No data is stored by EvoLink after the response is returned. AI features are optional and require explicit opt-in via EVOLINK_API_KEY."
+  }
+}
